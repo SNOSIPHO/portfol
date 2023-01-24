@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+main {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #00337C, #03C988);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.glass {
+
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(225, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(100rem);
+    display: flex;
+
+}
+
+.user h1 {
+    padding: 50px;
+    color: black;
+    font-weight: 600;
+    opacity: 0.8;
+    font-family: "Poppins",
+
+}
+
+.abt {
+
+    margin-left: 290px;
+    margin-top: 0px;
+}
+
+.user img {
+    margin-left: 300px;
+    margin-bottom: -100px;
+}
